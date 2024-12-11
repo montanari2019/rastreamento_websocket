@@ -114,7 +114,7 @@ export default async function Router({ searchParams }: RouteProps) {
             </div>
           )}
         </div>
-        <MapNewRoute/>
+        <MapNewRoute directionsData={directionData}/>
       </div>
     </div>
   );
